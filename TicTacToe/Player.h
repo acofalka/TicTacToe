@@ -10,5 +10,7 @@ private:
 public:
 	Player(std::string, SIGN);
 	~Player();
+	std::string getName();
+	SIGN getSign();
 };
 
