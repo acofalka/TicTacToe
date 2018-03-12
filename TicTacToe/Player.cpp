@@ -1,6 +1,5 @@
 #include "Player.h"
 
-
 Player::Player(std::string aName, SIGN aSign)
 {
 	name = aName;
@@ -8,6 +7,15 @@ Player::Player(std::string aName, SIGN aSign)
 }
 
 
-Player::~Player()
+Player::~Player() {}
+
+std::string Player::getName()
 {
+	return name;
 }
+
+SIGN Player::getSign()
+{
+	return sign;
+}
+

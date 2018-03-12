@@ -6,10 +6,11 @@ void main()
 {
 	GameController controller;
 	controller.startGame();
-	while (true) {
+	bool inGame = true;
+	while (inGame) {
 		controller.makeMove();
-		if (controller.checkIfWin()) break;
-		else if (controller.checkIfDraw()) break;
+		if (controller.checkIfWin() || controller.checkIfDraw())
+			inGame = false;
 	}
 	_getch();
 }

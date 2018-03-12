@@ -10,3 +10,5 @@ enum SIGN {
 	S_CIRCLE = F_CIRCLE,
 	S_CROSS = F_CROSS
 };
+
+const int MAXMOVES = 9;

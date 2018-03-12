@@ -13,6 +13,7 @@ private:
 	Board* board;
 	Player* players[2];
 	unsigned currentPlayer;
+	unsigned movesDone;
 public:
 	GameController();
 	~GameController();

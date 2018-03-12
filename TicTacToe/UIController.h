@@ -13,6 +13,6 @@ public:
 	void printBoard(Board*);
 	int getFieldToOccupy(Player*);
 	int getFieldAfterChoosingOccupied(Player*);
+	void printWin(Player*);
+	void printDraw();
 };
-
-// nie mo¿e kontrolowaæ logiki gry
